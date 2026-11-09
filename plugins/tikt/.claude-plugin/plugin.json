@@ -1,0 +1,20 @@
+{
+  "name": "tikt",
+  "displayName": "TIKT",
+  "version": "1.0.0",
+  "description": "Work in your TIKT workspace from Claude: read and sort the leads TIKT finds on LinkedIn, follow profiles, send leads to your tools.",
+  "author": {
+    "name": "TIKT",
+    "email": "support@trytikt.com",
+    "url": "https://trytikt.com"
+  },
+  "homepage": "https://docs.trytikt.com/help/connect-your-ai-assistant",
+  "privacyPolicyUrl": "https://trytikt.com/privacy",
+  "repository": "https://github.com/mussetpro-ship-it/tikt-claude-plugin",
+  "keywords": [
+    "tikt",
+    "linkedin",
+    "leads",
+    "mcp"
+  ]
+}

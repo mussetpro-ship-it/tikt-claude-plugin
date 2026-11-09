@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tikt": {
+      "type": "http",
+      "url": "https://api.trytikt.com/mcp"
+    }
+  }
+}

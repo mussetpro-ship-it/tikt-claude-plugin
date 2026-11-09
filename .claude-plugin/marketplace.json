@@ -1,0 +1,16 @@
+{
+  "name": "tikt",
+  "owner": {
+    "name": "TIKT",
+    "email": "support@trytikt.com",
+    "url": "https://trytikt.com"
+  },
+  "description": "The TIKT plugin for Claude.",
+  "plugins": [
+    {
+      "name": "tikt",
+      "source": "./plugins/tikt",
+      "description": "Work in your TIKT workspace from Claude: your leads, the profiles you follow, your workflows."
+    }
+  ]
+}
