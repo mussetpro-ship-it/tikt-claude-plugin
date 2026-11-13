@@ -17,7 +17,8 @@ TIKT scored against their ICP.
 3. For a lead that needs a closer look, `get_lead`: the verdict and its justification for each criterion, why it is excluded if it is.
 4. Propose a sort to the user: which leads to keep, which to discard, which to add to which list (`list_lead_lists`, or a new list
    with `manage_lead_list`). Group them; say why in a few words per group.
-5. Only once the user agrees, `update_leads`, up to 100 leads per call.
+5. Only once the user agrees, `update_leads`, up to 100 leads per call. When discarding, say why with `discard_reason` when the user
+   gave a reason: `wrong_job_role`, `wrong_industry`, `wrong_location`, `already_customer` or `competitor`.
 
 ## Never
 

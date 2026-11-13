@@ -11,7 +11,8 @@ description: "Get the right leads into the user's CRM or sequencer: a few by the
 
 1. Find the leads with `search_leads` (and `count_leads` to know how many first).
 2. A few dozen leads: pass them to the user's tool through that tool's own connector (its MCP server, if the user has one connected:
-   lemlist, HubSpot, HeyReach…). Send only what the tool needs: name, title, company, LinkedIn address.
+   lemlist, HubSpot, HeyReach…). Send only what the tool needs: name, title, company, LinkedIn address. Once the tool has them,
+   tell the user, then set outreach_status to "sent" with update_leads, so the lead leaves “No status yet”.
 3. More than that: let TIKT send them, never the conversation.
    - Make sure a destination listens to `list.lead_added` (`list_automations`; create one with `manage_destination`: the webhook
      address of the user's Make, Zapier, n8n or Clay scenario, `events: ["list.lead_added"]`), then `test_destination` and, a few
