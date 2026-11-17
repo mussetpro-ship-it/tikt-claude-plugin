@@ -20,7 +20,8 @@ LinkedIn profiles their buyers follow, and scores each person against the user's
    (`manage_suggested_exclusions`, `leave_out`) — TIKT's screen proposes them all checked.
 4. **The profiles to watch.** Find 1 to 5 LinkedIn profiles the user's buyers follow — people who post every week about the buyers'
    problems, voices of their industry, competitors who publish (the `find_profiles_to_track` method). Show a short list with why each
-   fits, and `track_profile` the ones the user picks.
+   fits, and `track_profile` the ones the user picks. Preview each profile before tracking it (`preview_profile`: free, up to 5 before
+   the launch), and never track a profile TIKT couldn't read.
 5. **The launch.** Recap for the user: the ICP, the profiles, and what happens now — the free trial opens (1,250 credits for 7 days, once
    per email address) and TIKT collects the engagers of one recent post, using up to 250 of those credits. On their go-ahead,
    `launch_setup`.
