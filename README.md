@@ -7,7 +7,7 @@ It adds the TIKT connector (`https://api.trytikt.com/mcp`) and three ready-made 
 
 - **Triage leads** (`triage-leads`): Sort the workspace's leads: count them, read them by score and ICP criteria, propose what to keep, discard or list.
 - **Send leads to my tools** (`send-leads-to-my-tools`): Get the right leads into the user's CRM or sequencer: a few by their tool's connector, many through TIKT's workflows.
-- **Find profiles to track** (`find-profiles-to-track`): Find LinkedIn profiles the user's buyers follow, show them, and track the ones the user picks.
+- **Find profiles to track** (`find-profiles-to-track`): Find LinkedIn profiles the user's buyers follow (TIKT's suggestions first, then the web), show them, and track the ones the user picks.
 - **Set up TIKT** (`set-up-tikt`): Take a new user from connecting TIKT to their first leads: their company, their ICP, the profiles to watch, the launch.
 
 ## Install
